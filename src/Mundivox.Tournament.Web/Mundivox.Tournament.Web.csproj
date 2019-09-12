@@ -14,7 +14,7 @@
 
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Mundivox.Tournament.Data\Mundivox.Tournament.Data.csproj" />
+    <ProjectReference Include="..\Mundivox.Tournament.Data\Mundivox.Tournament.Data.csproj" />
   </ItemGroup>
 
 </Project>

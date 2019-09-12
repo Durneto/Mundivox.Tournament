@@ -14,7 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7E851D53-9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mundivox.Tournament.Web", "src\Mundivox.Tournament.Web\Mundivox.Tournament.Web.csproj", "{74BCBD54-AFA6-47D7-B692-A5F95F8C4225}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mundivox.Tournament.Data", "Mundivox.Tournament.Data\Mundivox.Tournament.Data.csproj", "{637E410B-00B0-48B5-B715-F144C7330852}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mundivox.Tournament.Data", "src\Mundivox.Tournament.Data\Mundivox.Tournament.Data.csproj", "{637E410B-00B0-48B5-B715-F144C7330852}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mundivox.Tournament.Model", "src\Mundivox.Tournament.Model\Mundivox.Tournament.Model.csproj", "{460602E1-03C4-4943-9959-9E15F5D394F8}"
 EndProject

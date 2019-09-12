@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\Mundivox.Tournament.Model\Mundivox.Tournament.Model.csproj" />
+    <ProjectReference Include="..\Mundivox.Tournament.Model\Mundivox.Tournament.Model.csproj" />
   </ItemGroup>
 
   <ItemGroup>
