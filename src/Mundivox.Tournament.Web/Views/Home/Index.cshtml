@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Mundivox.Tournament.Model.Phase>
+@{
+    ViewData["Title"] = "Home Page";
+}
+<script>
+    $(document).ready(function () {
+        nextPhase();
+    });
+
+    function nextPhase(selectedKey, idWinner) {
+        $.ajax({
+            async: true,
+            type: 'post',
+            dataType: "json",
+            cache: false,
+            url: '@Url.Content("~/")Home/TournamentCreate',
+            data: {selectedKey: selectedKey, idWinner: idWinner},
+            beforeSend: function (jqXHR, settings) {
+            },
+            success: function (data, textStatus, xhr) {
+                if (xhr.status === 200) {
+                    $(".brackets").brackets({
+                        titles: data.titles,
+                        rounds: data.rounds,
+                        color_title: 'black',
+                        border_color: '#00F',
+                        color_player: 'black',
+                        bg_player: 'white',
+                        color_player_hover: 'white',
+                        bg_player_hover: 'blue',
+                        border_radius_player: '10px',
+                        border_radius_lines: '10px',
+                    });
+                }
+                else
+                    alert(xhr.statusText);
+            },
+            error: function (xhr, err) {
+                alert(xhr.statusText);
+
+            },
+            complete: function (jqXHR, textStatus) {
+            }
+        });
+    }
+</script>
+<div class="text-center">
+    <form asp-action="TournamentCreate">
+        <h1 class="display-4">
+            <input type="button" onclick="nextPhase()" value="Criar novo torneio!" class="btn btn-primary" />
+        </h1>
+    </form>
+</div>
+<div class="wrapper">
+    <div class="brackets">
+    </div>
+</div>

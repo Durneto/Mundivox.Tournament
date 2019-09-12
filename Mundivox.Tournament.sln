@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AE229E30-A332-4DFF-B13B-3B526A8DD939}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0C3447BD-3028-49B6-B2D1-032B43E04DCF}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7E851D53-9987-483C-921A-3D192668E4A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mundivox.Tournament.Web", "src\Mundivox.Tournament.Web\Mundivox.Tournament.Web.csproj", "{74BCBD54-AFA6-47D7-B692-A5F95F8C4225}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mundivox.Tournament.Data", "Mundivox.Tournament.Data\Mundivox.Tournament.Data.csproj", "{637E410B-00B0-48B5-B715-F144C7330852}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mundivox.Tournament.Model", "src\Mundivox.Tournament.Model\Mundivox.Tournament.Model.csproj", "{460602E1-03C4-4943-9959-9E15F5D394F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74BCBD54-AFA6-47D7-B692-A5F95F8C4225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74BCBD54-AFA6-47D7-B692-A5F95F8C4225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74BCBD54-AFA6-47D7-B692-A5F95F8C4225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74BCBD54-AFA6-47D7-B692-A5F95F8C4225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{637E410B-00B0-48B5-B715-F144C7330852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{637E410B-00B0-48B5-B715-F144C7330852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{637E410B-00B0-48B5-B715-F144C7330852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{637E410B-00B0-48B5-B715-F144C7330852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{460602E1-03C4-4943-9959-9E15F5D394F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{460602E1-03C4-4943-9959-9E15F5D394F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{460602E1-03C4-4943-9959-9E15F5D394F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{460602E1-03C4-4943-9959-9E15F5D394F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{74BCBD54-AFA6-47D7-B692-A5F95F8C4225} = {AE229E30-A332-4DFF-B13B-3B526A8DD939}
+		{637E410B-00B0-48B5-B715-F144C7330852} = {AE229E30-A332-4DFF-B13B-3B526A8DD939}
+		{460602E1-03C4-4943-9959-9E15F5D394F8} = {AE229E30-A332-4DFF-B13B-3B526A8DD939}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DACE1617-BD12-44B4-8AE4-4650AE238E5D}
+	EndGlobalSection
+EndGlobal
